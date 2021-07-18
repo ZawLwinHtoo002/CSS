@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model (Part3)</title>
+    <style type="text/css">
+        .one {
+            height: 300px;
+            width: 500px;
+            color: black;
+            /* background-color: pink; */
+            padding: 20px 30px;
+            margin: 20px 10px 30px 40px;
+            border-width: 20px;
+            border-style: dotted;
+            border-color: pink;
+        }
+
+        .two {
+            height: 300px;
+            width: 500px;
+            color: black;
+            /* background-color: pink; */
+            padding: 10px 20px 30px 40px;
+            margin: 20px 10px;
+            border: 10px dashed green;
+
+        }
+
+        img {
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+        }
+
+        .testing {
+            background: red;
+            border: 2px solid;
+            height: 50vh;
+            width: 50vw;
+        }
+
+        .parent{
+            height: 500px;
+            width: 500px;
+            background: yellow;
+        }
+        .child{
+            height: 50%;
+            width: 50%;
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="testing"></div>
+
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+
+    <h1 class="one">Hello!</h1>
+    <h1 class="two">Good Night!</h1>
+    <img src="assets/poe.jpg" alt="poe">
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Class</title>
+    <style type="text/css">
+        .container{
+            width: 500px;
+            border: 2px solid red;
+            padding: 2px;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .container:hover{
+            background-color: red;
+            color: white;
+            /* transition: 0.5s; */
+        }
+        .container:active{
+            background-color: blue;
+            color: white;
+        }
+        .input:focus{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quasi qui. Delectus, dicta eveniet? Nisi impedit cupiditate doloremque perspiciatis numquam rerum deserunt, repellendus praesentium quidem exercitationem odio molestias suscipit aut.
+        </p>
+    </div>
+    <br>
+    <input type="text" class="input">
+</body>
+</html>
